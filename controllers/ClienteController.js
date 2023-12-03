@@ -2,19 +2,16 @@
     const { AppError } = require("../utils/appError")
     const  clienteDAO  = require("../dataAccess/clienteDAO")
 
-
-    // usuario: DataTypes.STRING,
-    // contraseña: DataTypes.STRING
     class clienteController {
 
         static async addCliente(req, res, next) {
             try {
-                const { nombre, telefono } = req.body
+                const {idusuario, nombre, telefono } = req.body
 
-                if (!nombre || !telefono) {
+                if (!idusuario || !nombre || !telefono) {
                     throw new AppError('¡Faltan campos obligatorios!', 500)
                 }
-                const clienteData = { nombre, telefono }
+                const clienteData = {idusuario, nombre, telefono }
                 const cleinte = await clienteDAO.crearCliente(clienteData);
                 res.status(201).json(cleinte)
             } catch (err) {

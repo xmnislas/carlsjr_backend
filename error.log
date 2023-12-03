@@ -160,3 +160,7 @@
 {"level":"error","message":"Ruta no encontrada o ha cambiado"}
 {"level":"error","message":"Error al obtener los productos"}
 {"level":"error","message":"Error al obtener los productos"}
+{"level":"error","message":"Error al obtener los usuarios"}
+{"level":"error","message":"Error al crear usuario"}
+{"level":"error","message":"Error al crear cliente"}
+{"level":"error","message":"Error al crear cliente"}

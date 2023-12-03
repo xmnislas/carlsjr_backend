@@ -1,6 +1,5 @@
 const AdministradorDAO = require('../dataAccess/administradorDAO');
 const { AppError } = require('../utils/appError');
-const { verifyToken } = require('../middleware/auth');
 
 class AdministradorController {
   static async crearAdministrador(req, res, next) {
@@ -22,7 +21,6 @@ class AdministradorController {
   }
 
   static async obtenerAdministradorPorId(req, res, next) {
-    verifyToken(req, res, next); // Verifica el token antes de continuar
     try {
       const id = req.params.id;
       const administrador = await AdministradorDAO.obtenerAdministradorPorId(id);
@@ -37,7 +35,6 @@ class AdministradorController {
   }
 
   static async obtenerAdministradores(req, res, next) {
-    verifyToken(req, res, next); // Verifica el token antes de continuar
     try {
       const administradores = await AdministradorDAO.obtenerAdministradores();
       res.status(200).json(administradores);
@@ -48,7 +45,6 @@ class AdministradorController {
   }
 
   static async actualizarAdministrador(req, res, next) {
-    verifyToken(req, res, next); // Verifica el token antes de continuar
     try {
       const id = req.params.id;
       const { idusuario, nombre } = req.body;
@@ -65,7 +61,6 @@ class AdministradorController {
   }
 
   static async eliminarAdministrador(req, res, next) {
-    verifyToken(req, res, next); // Verifica el token antes de continuar
     try {
       const id = req.params.id;
       const administrador = await AdministradorDAO.eliminarAdministrador(id);

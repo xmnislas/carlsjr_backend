@@ -17,8 +17,6 @@ module.exports = (sequelize, DataTypes) => {
   }, {
     sequelize,
     modelName: 'Cliente',
-    timestamps: false,  // Agregar esta línea para habilitar las marcas de tiempo
-    updatedAt: false    // Opcional: si no necesitas updatedAt, puedes deshabilitarlo
   });
 
   return Cliente;

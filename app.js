@@ -8,7 +8,6 @@ const productoRoutes = require('./routes/ProductoRouter')
 const pedidoProductoRoutes = require('./routes/PedidoProductoRouter')
 const pedidoRoutes = require('./routes/PedidoRouter')
 const clienteRoutes = require('./routes/ClienteRouter')
-const loginRoutes = require('./routes/LoginRouter')
 const morgan = require('morgan')
 const { AppError, globalErrorHandler } = require("./utils/appError")
 app.use(express.json())
@@ -16,7 +15,7 @@ app.use(express.json())
 app.use(morgan('combined'))
 
 app.use((req, res, next) => {
-    res.header('Access-Control-Allow-Origin', 'http://127.0.0.1:5502'); 
+    res.header('Access-Control-Allow-Origin', '*');   
     res.header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE');
     res.header('Access-Control-Allow-Headers', 'Content-Type');
     next();
@@ -35,7 +34,6 @@ app.use('/api/administradores', administradorRoutes)
 app.use('/api/clientes', clienteRoutes)
 app.use('/api/productos', productoRoutes)
 app.use('/api/pedidosProductos', pedidoProductoRoutes)
-app.use("/api/login", loginRoutes)
 
 app.all("*", (req, res, next) => {
     const error = new AppError('Ruta no encontrada o ha cambiado', 300)

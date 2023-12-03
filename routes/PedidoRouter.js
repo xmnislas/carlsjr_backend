@@ -1,21 +1,20 @@
 const express = require('express');
 const router = express.Router();
 const PedidoController = require('../controllers/PedidoController');
-const authMiddleware = require('../middleware/auth'); // Importa tu middleware de autenticación
 
 // Crear pedido (ruta protegida)
-router.post('/', authMiddleware, PedidoController.crearPedido);
+router.post('/', PedidoController.crearPedido);
 
 // Obtener pedidos (ruta pública)
 router.get('/', PedidoController.obtenerPedidos);
 
 // Obtener pedido por ID (ruta protegida)
-router.get('/:id', authMiddleware, PedidoController.obtenerPedidoPorId);
+router.get('/:id', PedidoController.obtenerPedidoPorId);
 
 // Actualizar pedido por ID (ruta protegida)
-router.put('/:id', authMiddleware, PedidoController.actualizarPedido);
+router.put('/:id', PedidoController.actualizarPedido);
 
 // Eliminar pedido por ID (ruta protegida)
-router.delete('/:id', authMiddleware, PedidoController.eliminarPedido);
+router.delete('/:id', PedidoController.eliminarPedido);
 
 module.exports = router;

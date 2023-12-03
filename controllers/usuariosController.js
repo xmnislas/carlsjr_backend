@@ -1,6 +1,5 @@
 const { AppError } = require("../utils/appError");
 const UsuarioDAO = require("../dataAccess/usuarioDAO");
-const { verifyToken } = require('../middleware/auth');
 
 class usuarioController {
 
@@ -22,7 +21,6 @@ class usuarioController {
     }
 
     static async getUsuarios(req, res, next) {
-        verifyToken(req, res, next); // Verifica el token antes de continuar
         try {
             const limit = req.params.limit || 10;
             const usuarios = await UsuarioDAO.obtenerUsuarios(limit);
@@ -33,7 +31,6 @@ class usuarioController {
     }
 
     static async getUsuarioPorId(req, res, next) {
-        verifyToken(req, res, next); // Verifica el token antes de continuar
         try {
             const id = req.params.id;
             const usuario = await UsuarioDAO.obtenerUsuarioPorId(id);
@@ -48,7 +45,6 @@ class usuarioController {
 
     // Elimina por id
     static async deleteUser(req, res, next) {
-        verifyToken(req, res, next); // Verifica el token antes de continuar
         try {
             const id = req.params.id;
             const usuario = await UsuarioDAO.eliminarUsuario(id);
