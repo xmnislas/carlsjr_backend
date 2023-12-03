@@ -1,0 +1,162 @@
+{"level":"error","message":"statusCode is not defined"}
+{"level":"error","message":"nombre is not defined"}
+{"level":"error","message":"statusCode is not defined"}
+{"level":"error","message":"statusCode is not defined"}
+{"level":"error","message":"¡Faltan campos obligatorios!"}
+{"level":"error","message":"nombre is not defined"}
+{"level":"error","message":"Error al eliminar pago"}
+{"level":"error","message":"Error al eliminar pago"}
+{"level":"error","message":"Error al eliminar pago"}
+{"level":"error","message":"Error al eliminar pago"}
+{"level":"error","message":"Error al eliminar pago"}
+{"level":"error","message":"No se logró obtener el pedido"}
+{"level":"error","message":"No se logró obtener el pedido"}
+{"level":"error","message":"No se logró obtener el pedido"}
+{"level":"error","message":"No se logró obtener el pedido"}
+{"level":"error","message":"Error al eliminar pago"}
+<<<<<<< HEAD
+{"level":"error","message":"Error al crear cliente"}
+
+{"level":"error","message":"Error al crear cliente"}
+{"level":"error","message":"Error al crear cliente"}
+{"level":"error","message":"Error al crear cliente"}
+{"level":"error","message":"Error al crear cliente"}
+{"level":"error","message":"Error al crear cliente"}
+{"level":"error","message":"Error al crear cliente"}
+{"level":"error","message":"Error al crear cliente"}
+{"level":"error","message":"Error al crear cliente"}
+{"level":"error","message":"Error al crear cliente"}
+{"level":"error","message":"Error al crear cliente"}
+{"level":"error","message":"Error al crear cliente"}
+{"level":"error","message":"Error al crear cliente"}
+{"level":"error","message":"Error al crear cliente"}
+{"level":"error","message":"Error al crear cliente"}
+{"level":"error","message":"Error al crear cliente"}
+{"level":"error","message":"Error al crear cliente"}
+{"level":"error","message":"Error al crear cliente"}
+{"level":"error","message":"Error al crear cliente"}
+{"level":"error","message":"Error al crear cliente"}
+{"level":"error","message":"Error al crear cliente"}
+{"level":"error","message":"Error al crear cliente"}
+{"level":"error","message":"Error al crear cliente"}
+{"level":"error","message":"Error al crear cliente"}
+{"level":"error","message":"Error al obtener los clientes"}
+{"level":"error","message":"Error al obtener los clientes"}
+{"level":"error","message":"Error al obtener los clientes"}
+{"level":"error","message":"Error al obtener los clientes"}
+{"level":"error","message":"Error al actualizar el cliente"}
+{"level":"error","message":"Error al actualizar el cliente"}
+{"level":"error","message":"Error al actualizar el cliente"}
+{"level":"error","message":"Error al actualizar el cliente"}
+{"level":"error","message":"Error al actualizar el cliente"}
+{"level":"error","message":"Error al actualizar el cliente"}
+{"level":"error","message":"Error al actualizar el cliente"}
+{"level":"error","message":"Error al eliminar cliente"}
+{"level":"error","message":"Ruta no encontrada o ha cambiado"}
+{"level":"error","message":"Error al eliminar cliente"}
+{"level":"error","message":"Error al eliminar cliente"}
+=======
+{"level":"error","message":"Error al crear usuario"}
+{"level":"error","message":"Error al crear usuario"}
+{"level":"error","message":"Error al crear usuario"}
+{"level":"error","message":"Error al crear usuario"}
+{"level":"error","message":"Error al crear usuario"}
+{"level":"error","message":"Error al crear usuario"}
+{"level":"error","message":"Error al eliminar usuario"}
+{"level":"error","message":"Error al eliminar usuario"}
+{"level":"error","message":"Los campos idcliente, total, fecha, idpago son obligatorios"}
+{"level":"error","message":"Ruta no encontrada o ha cambiado"}
+{"level":"error","message":"Ruta no encontrada o ha cambiado"}
+{"level":"error","message":"Error al crear el administrador"}
+{"level":"error","message":"Error al crear el administrador"}
+{"level":"error","message":"Error al eliminar cliente"}
+{"level":"error","message":"Error al eliminar cliente"}
+{"level":"error","message":"Error al eliminar cliente"}
+{"level":"error","message":"Ruta no encontrada o ha cambiado"}
+{"level":"error","message":"Ruta no encontrada o ha cambiado"}
+{"level":"error","message":"No se encontró el pedidoProducto"}
+{"level":"error","message":"No se encontró el pedidoProducto"}
+{"level":"error","message":"Error al crear producto!"}
+{"level":"error","message":"Error al crear producto!"}
+{"level":"error","message":"Error al crear producto!"}
+{"level":"error","message":"Error al crear producto!"}
+{"level":"error","message":"Error al obtener producto o producto inexistente"}
+{"level":"error","message":"Error al obtener producto o producto inexistente"}
+{"level":"error","message":"Error al obtener producto o producto inexistente"}
+{"level":"error","message":"Error al eliminar producto"}
+{"level":"error","message":"Error al eliminar producto"}
+>>>>>>> 65285be97f6d0e50fcb61ae84455b899444b9fa1
+{"level":"error","message":"Error al crear usuario"}
+{"level":"error","message":"Error al crear usuario"}
+{"level":"error","message":"Error al crear usuario"}
+{"level":"error","message":"Error al crear usuario"}
+{"level":"error","message":"Error al iniciar sesion"}
+{"level":"error","message":"Error al iniciar sesion"}
+{"level":"error","message":"Error al iniciar sesion"}
+{"level":"error","message":"Error usuario no encontrado"}
+{"level":"error","message":"Error usuario no encontrado"}
+{"level":"error","message":"Error usuario no encontrado"}
+{"level":"error","message":"Error usuario no encontrado"}
+{"level":"error","message":"Error usuario no encontrado"}
+{"level":"error","message":"Error usuario no encontrado"}
+{"level":"error","message":"Error usuario no encontrado"}
+{"level":"error","message":"Error usuario no encontrado"}
+{"level":"error","message":"Error usuario no encontrado"}
+{"level":"error","message":"Error usuario no encontrado"}
+{"level":"error","message":"Error usuario no encontrado"}
+{"level":"error","message":"Error al iniciar sesion"}
+{"level":"error","message":"Error al iniciar sesion"}
+{"level":"error","message":"Error al iniciar sesion"}
+{"level":"error","message":"Error usuario no encontrado"}
+{"level":"error","message":"Error usuario no encontrado"}
+{"level":"error","message":"Error usuario no encontrado"}
+{"level":"error","message":"Error usuario no encontrado"}
+{"level":"error","message":"Error usuario no encontrado"}
+{"level":"error","message":"Error usuario no encontrado"}
+{"level":"error","message":"Error usuario no encontrado"}
+{"level":"error","message":"Error usuario no encontrado"}
+{"level":"error","message":"Error usuario no encontrado"}
+{"level":"error","message":"Error usuario no encontrado"}
+{"level":"error","message":"Ruta no encontrada o ha cambiado"}
+{"level":"error","message":"Ruta no encontrada o ha cambiado"}
+{"level":"error","message":"Error usuario no encontrado"}
+{"level":"error","message":"Error usuario no encontrado"}
+{"level":"error","message":"Error usuario no encontrado"}
+{"level":"error","message":"Error usuario no encontrado"}
+{"level":"error","message":"Error usuario no encontrado"}
+{"level":"error","message":"Error usuario no encontrado"}
+{"level":"error","message":"Error usuario no encontrado"}
+{"level":"error","message":"Error usuario no encontrado"}
+{"level":"error","message":"Error usuario no encontrado"}
+{"level":"error","message":"Error usuario no encontrado"}
+{"level":"error","message":"Error usuario no encontrado"}
+{"level":"error","message":"Error al iniciar sesion"}
+{"level":"error","message":"Error usuario no encontrado"}
+{"level":"error","message":"Error al obtener los productos"}
+{"level":"error","message":"Error al obtener los productos"}
+{"level":"error","message":"Error al obtener los productos"}
+{"level":"error","message":"Error al obtener los productos"}
+{"level":"error","message":"Error al obtener los productos"}
+{"level":"error","message":"Error al obtener los productos"}
+{"level":"error","message":"Error al obtener los productos"}
+{"level":"error","message":"Error al obtener los productos"}
+{"level":"error","message":"Error al obtener los productos"}
+{"level":"error","message":"Error al obtener los productos"}
+{"level":"error","message":"Error al obtener los productos"}
+{"level":"error","message":"Error al obtener los productos"}
+{"level":"error","message":"Error al obtener los productos"}
+{"level":"error","message":"Error al obtener los productos"}
+{"level":"error","message":"Error al obtener los productos"}
+{"level":"error","message":"Error al obtener los productos"}
+{"level":"error","message":"Error al obtener los productos"}
+{"level":"error","message":"Error al obtener los productos"}
+{"level":"error","message":"Error al obtener los productos"}
+{"level":"error","message":"Error al obtener los productos"}
+{"level":"error","message":"Error al obtener los productos"}
+{"level":"error","message":"Error al obtener los productos"}
+{"level":"error","message":"Error al obtener los productos"}
+{"level":"error","message":"Ruta no encontrada o ha cambiado"}
+{"level":"error","message":"Error al obtener los productos"}
+{"level":"error","message":"Ruta no encontrada o ha cambiado"}
+{"level":"error","message":"Error al obtener los productos"}
+{"level":"error","message":"Error al obtener los productos"}
